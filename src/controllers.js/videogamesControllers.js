@@ -41,6 +41,7 @@ const cleanArray = (array) => {
   const gamesFromDb = async () => await Videogame.findAll()
 
   const getAllGames = async  () => {
+    console.log('entre a buscar all games,apikey:',apikey)
     const fromdb = await gamesFromDb();
     const fromapi = await gamesFromApi()
 
