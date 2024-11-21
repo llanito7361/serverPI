@@ -16,7 +16,7 @@ server.use(morgan('dev'));
 // Configuración de CORS usando cors middleware
 server.use(cors({
   origin: [
-    'https://cliente-pi-hazel.vercel.app',
+    'https://cliente-pi-six.vercel.app',
     'http://localhost:3000',
 // 'https://5063-181-5-239-36.ngrok-free.app'
   
