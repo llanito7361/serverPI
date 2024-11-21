@@ -7,9 +7,9 @@ const router = Router()
 
 
 
-// router.get('/',(req,res)=>{
-//     res.status(200).send('/estamos en el inicio, en / ')
-// })
+router.get('/',(req,res)=>{
+    res.status(200).send('/estamos en el inicio, en / ')
+})
 router.use('/games', gamesRouter) //funciona
 router.use('/genres', genresRouter) //funciona
 router.use('/platforms',platformsRouter ) //funciona

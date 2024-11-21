@@ -1,5 +1,7 @@
 const { Sequelize } = require("sequelize");
-const { DB_USER, DB_PASSWORD, DB_HOST, DB_NAME, DB_PORT, API_KEY, DATABASE_URL} = process.env;
+const { 
+  // DB_USER, DB_PASSWORD, DB_HOST, DB_NAME, DB_PORT, API_KEY, 
+  DATABASE_URL} = process.env;
 // const API_KEY = '24f204b80e524536a5f21e21b289e559' la primera solucion al apikey, la mas primitiva onga onga uh uh 
 const videogamesModel = require("./models/videogamesModel");
 const genresModel = require("./models/genresModel");
